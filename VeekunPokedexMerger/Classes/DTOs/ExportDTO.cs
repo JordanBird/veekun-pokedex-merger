@@ -21,6 +21,10 @@ namespace VeekunPokedexMerger.Classes.DTOs
         public int Speed { get; set; }
         public int Total { get; set; }
 
+        public string Ability1 { get; set; }
+        public string Ability2 { get; set; }
+        public string HiddenAbility { get; set; }
+
         public string Moves { get; set; }
     }
 }
